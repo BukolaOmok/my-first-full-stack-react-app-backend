@@ -1,3 +1,3 @@
 # PostgreSQL Practice
 
-This is my first postgreSQL database practice. You may find it useful for your first practice too.
+This is my first full stack react back end app. It connects to the below repo on the front end -
