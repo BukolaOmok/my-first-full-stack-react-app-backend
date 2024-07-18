@@ -24,7 +24,7 @@ const setupRoutes = (app) => {
         };
 
         const dbResult = await client.query(
-            "INSERT INTO global_time_zones (city, utcoffset) VALUES ($1, $2)' RETURNING *",
+            "INSERT INTO global_time_zones (city, utcoffset) VALUES ($1, $2) RETURNING *",
             [safeTimeZone.city, safeTimeZone.utcoffset]
         );
 
